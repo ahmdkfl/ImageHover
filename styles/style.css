@@ -1,0 +1,25 @@
+#overlay {
+    position: fixed;
+    display: none;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1.0);
+    z-index: 10000;
+    pointer-events: none;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 5px;
+    line-height: 0px;
+    -webkit-box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.75);
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-transition-property: none;
+    -moz-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+}

@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "ImageHover",
+	"author": "Kafeel A.",
+	"version": "1.0",
+	
+	"description": "Look in fullscreen at images on any websites",
+
+	"icons": {
+		"48" : "images/zoomin-48.png"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"css": ["styles/style.css"],
+			"js": ["scripts/jquery-3.3.1.min.js","imagehover.js"]
+		}
+	],
+
+	"options_ui": {
+		"page": "options/options.html"
+	},
+
+	"permissions" : ["storage"]
+}

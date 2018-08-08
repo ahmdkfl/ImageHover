@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(249, 249, 250);margin:10px;font-family: 'Segoe UI',Arial,sans-serif;">
+    <form>
+        <input type="checkbox" id="imgZoom"/>
+        <label for="imgZoom">Enable image zoom (&lt;img&gt; tag)</label>
+        <br/>
+        <input type="checkbox" id="bgImgZoom"/>
+        <label for="bgImgZoom">Enable background image zoom (&lt;div&gt; tag)</label>
+        <br/><br/>
+        <label for="delay">Zoom delay:</label>
+        <input type="text" id="delay" maxlength="4" size="4"/>
+        <label for="delay"> ms</label>
+        <br/><br/>
+        <label for="maxWidth">Max width of the image: </label>
+        <input type="text" id="maxWidth" maxlength="2" size="2"/>
+        <br/><br/>
+        <label for="maxHeight">Max height of the image: </label>
+        <input type="text" id="maxHeight" maxlength="2" size="2"/>
+        <br/><br/>
+        <button type="submit" class="btn btn-info">Save</button>
+    </form>
+    <script src="options.js"></script>
+</body>
+</html>
