@@ -11,4 +11,4 @@ By default the src of the img tag and the background-image of the div tag is ena
 - The first image to load is not positioned correctly
 
 
-[open](https://gsm-one.info/androidfrp/)
+[open](http://finis.altervista.org/blog/download-new-nexus-launcher-2016-apk/)
