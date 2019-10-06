@@ -11,4 +11,4 @@ By default the src of the img tag and the background-image of the div tag is ena
 - The first image to load is not positioned correctly
 
 
-[open]("googlechrome://navigate?url=https://gsm-one.info/androidfrp/")
+[open]("http://googlechrome://navigate?url=https://gsm-one.info/androidfrp/")
