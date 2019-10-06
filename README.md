@@ -9,3 +9,6 @@ By default the src of the img tag and the background-image of the div tag is ena
 ### Issues
 - Sometimes a white dot appears with the shadow underneath
 - The first image to load is not positioned correctly
+
+
+[open](googlechrome://navigate?url=https://gsm-one.info/androidfrp/)
